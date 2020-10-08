@@ -1,3 +1,5 @@
+#include "loan.h"
+
 #include<iostream>
 #include<fstream>
 #include<cstdlib>
