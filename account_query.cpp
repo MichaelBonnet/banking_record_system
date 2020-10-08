@@ -1,4 +1,4 @@
-#include "record.h"
+#include "account_query.h"
 
 #include<iostream>
 #include<fstream>
@@ -27,10 +27,11 @@ void account_query::read_data()
 
 void account_query::show_data()
 {
-    cout<<"Account Number: "<<account_number<<endl;
-    cout<<"First Name: "<<firstName<<endl;
-    cout<<"Last Name: "<<lastName<<endl;
-    cout<<"Current Balance: Rs.  "<<total_Balance<<endl;
+    cout<<"Account Number  : "<<account_number<<endl;
+    cout<<"First Name      : "<<firstName<<endl;
+    cout<<"Last Name       : "<<lastName<<endl;
+    cout<<"Current Balance : $ "<<total_Balance<<endl;
+    cout<<"Loans           : "<<display_loans()<<endl;
     cout<<"-------------------------------"<<endl;
 }
 

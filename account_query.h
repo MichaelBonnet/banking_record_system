@@ -11,7 +11,7 @@ class account_query
         char account_number[20]; // should probably be an int
         char firstName[10];
         char lastName[10];
-        std::vector<*Loan> loans;
+        std::vector<Loan*> _loans;
         float total_Balance;
 
     public:
@@ -22,6 +22,7 @@ class account_query
         void search_rec();
         void edit_rec();
         void delete_rec();
+        String display_loans();
 };
 
 #endif

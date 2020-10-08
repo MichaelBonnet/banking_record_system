@@ -1,0 +1,12 @@
+- Make Loan class with child classes Auto and Home
+	- Constructors for loan/auto/home
+
+- Integrate loan stuff into the records
+
+- Make record system allow for multiple records
+
+- Add operator overloading
+
+- Add polymorphism stuff
+
+- Add GUI
